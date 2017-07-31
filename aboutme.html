@@ -11,7 +11,7 @@
 <!-- for fa fa icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="aboutme.css" type="text/css">
-<meta name="blue" />
+<script type="text/javascript" src="aboutme.js"> </script>
 </head>
 
 
@@ -88,10 +88,21 @@
   and a battery. Although, my group and I spent an hour figuring out how to light up the LED using a series and parallel circuit, I enjoyed trying out
   different wire positions to get the  circuit to work.
 
-<div class="robotPicsContainer">
-<img class="robotPic1" src="http://i.imgur.com/yNyoIN6.jpg" alt="robot on girlswhocode mat">
-<img class="robotPic2" src="http://i.imgur.com/UHdxkp8.jpg" alt="closeup of led circuit on the breadboard of the robot">
+<br>
+<button onclick="document.getElementById('robotPicsContainer').src='http://i.imgur.com/yNyoIN6.jpg'"> Click me to see pics </button>
+
+<div id="robotPicsContainer">
+  <!-- <img class="robotPic2" src="http://i.imgur.com/UHdxkp8.jpg" alt="closeup of led circuit on the breadboard of the robot"> -->
+  <!-- <img class="robotPic1" src="http://i.imgur.com/yNyoIN6.jpg" alt="robot on girlswhocode mat"> -->
+
 </div>
+
+
+<!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
 
 <h5> July 27th, 2017 </h5>
   <p> One thing I learned about circuits is that power comes from GND so in order to power
