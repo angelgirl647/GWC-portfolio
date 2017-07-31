@@ -1,31 +1,32 @@
-<html>
+<html lang="en">
 
+<head>
 <title>My Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- for w3 schools' css, change it!!! -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--  for google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!-- for fa fa icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="aboutme.css" type="text/css">
+<meta name="blue" />
+</head>
+
 
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="nav w3-bar-item w3-button w3-hover-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ALL ABOUT ME</a>
-    <a href="#reflections" class="w3-bar-item w3-button "><i class="fa fa-asterisk"></i> REFLECTIONS</a>
-    <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROJECTS</a>
-    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-female"></i> CONTACT</a>
-
-    </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+<!-- Navbar-->
+<div class="topnav" >
+    <a href="#home">HOME</a>
+    <a href="#about"><i class="fa fa-user"></i> ALL ABOUT ME</a>
+    <a href="#reflections"><i class="fa fa-asterisk"></i> REFLECTIONS</a>
+    <a href="#projects"><i class="fa fa-th"></i> PROJECTS</a>
+    <a href="#contact"><i class="fa fa-female"></i> CONTACT</a>
+</div>
+<!--for small screens-->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ALL ABOUT ME</a>
     <a href="#reflections" class="w3-bar-item w3-button" onclick="toggleFunction()">REFLECTIONS</a>
     <a href="projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
@@ -34,6 +35,9 @@
   </div>
 </div>
 
+
+
+
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
@@ -41,41 +45,64 @@
   </div>
 </div>
 
+
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
+<div id="about">
   <h3 class="heading">ALL ABOUT ME</h3>
-  <p class=" shy w3-xlarge"><em>"Dont be shy, take pride."</em></p>
+  <p class="motto"><em>"Dont be shy, take pride."</em></p>
 
 <p> Hey, I'm Yuki. I'm a Girls Who Code member in Moody's this summer and a rising senior in Brooklyn Technical High School.  </p>
 <p> In my free time, I like to go on Quora and read almost everything that's on my feed, ranging from sad life stories to college
   advice to awesome life hacks because I enjoy gaining new knowledge while memorizing random trivia on the back of my mind. I also
   love doing sports with my family and friends. I've been playing badminton with my mom ever since 1st grade and I started fencing
-  just last year. Even though I'm on the fencing team in my school, I have to admit I'm the second worst player in the team.
-  Additionally, I like to go out to the city and walk for several hours straight while listening to music. One of my proudest
-  accomplishments in life is walking 110 streets in one afternoon. Recently, I created a scrapbook for my mom's Christmas present
-  and now I'm obessed with hot glueing flowers,doilies and anything pastable I could find in my house onto my scrapbook. Often, it
-  may take hours to complete one page, but the journey of making something special for your loved one is definitely worth it. </p>
+  just last year. Even though I'm on the fencing team in my school, I have to admit I'm the second worst player in the team. I may be bad,
+  but I love how strategic the sport is. I always have to try out new moves and think of new ways to hit my opponent when I'm on the strip.
+  Fencing is very similar to coding as my problem solving and critical thinking skills play very important roles in completing a task.
+  The main reason I like coding and fencing so much is because I enjoy challenging myself while learning from my own mistakes. </p>
+  <p>Additionally, I like to go out to the city and walk for several hours straight while listening to music. One of my proudest
+  accomplishments in life so far is walking 110 streets in one afternoon by myself. I get to distress myself from school and reflect upon
+  my life as I trudge through the bustling city and observe everyone around me. Because I really cherish my memories, I recently created a scrapbook
+  for my mom so we can look back at some old pictures together and now I'm obsessed with hot gluing
+  flowers,doilies and anything pastable I could find in my house onto it. Often, it
+  would take me hours to complete one page, but the journey of making something valuable for both me and my mom is definitely worth it. </p>
 
-<div class="w3-content w3-container w3-padding-64" id="reflections">
-<h2 class="heading"> Reflections </h2>
-  <h5> July 19th, 2017 </h5>
-<p> After dabbling with both Python and Scratch, I realized there are many similarities between the two programming languages. I can build loops, conditionals, variables and functions along with making things go forward and turn left or right. However, there are no sprites readily available in Python and the syntax is very different as well. I can't drag and drop any blocks in Python like what I did in Scratch.
-<p>My group and I also started debugging our programs and it was pretty frustrating when more errors popped up after "fixing" one part of the code. Although, it was time consuming, I did like challenging myself and thinking critically. Problem solving is a great skill to practice.
-
-  <h5> July 21st, 2017 </h5>
- <p> In class today, we learned about data struuctures and how to create a list in Python. A list is basically an array of data and it is very useful when you need to store a list of coordinates or a list of pixels in a picture for example. It stores a large set of data in one place so it's easy to access the information in one go. After learning about them, we used our knowledge and created our own filters.
-
-<h5> July 25th, 2017 </h5>
-<p> Today we built a BOE robot and I liked this activity a lot! We learned about circuits and how we can light up a LED using jump wires, resistors and a battery. Although, my group and I spent an hour figuring out how to light up the LED using a series and parallel circuit, I enjoyed trying out different wire positions to get the  circuit to work.
-<div class="robotPicsContainer">
-<img class="robotPic" src="IMG_6116.jpg">
-<img class="robotPic2" src="https://mail.google.com/mail/u/0/?ui=2&ik=d8fa1e878d&view=fimg&th=15d7a4a33e45aff9&attid=0.2&disp=emb&realattid=15d7a474e30c83f82271&attbid=ANGjdJ9kZ4Wu3rM7530ruJO7RI0Li41EE_vp2o1pyOF-pULvH_VfSgdJsv3w-hFa0aUIKymK7SLd5CMp_XDq7cZETjFuoylngxxCuzJy11d9k-X8WpSniHIQ9xzySVs&sz=s0-l75-ft&ats=1500995384246&rm=15d7a4a33e45aff9&zw&atsh=1">
-
-<h5> July 27th, 2017 </h5>
-  <p> One thing I learned about circuits is that power comes from GND when the BOE shield is attached to the ARDUINO so in order to power the circuit, you need to connect the breadboard to a battery pack pack today a jumper wire or resistor to GND! We also made our robot dance by using the servo and adding them in go forward, go backwards, turn left and turn right functions.
 </div>
 
-   <div class="w3-content w3-container w3-padding-64" id="projects">
+<div id="reflections">
+<h2 class="heading"> Reflections </h2>
+  <h5> July 19th, 2017 </h5>
+<p> After dabbling with both Python and Scratch, I realized there are many similarities between the two programming languages. I can build loops,
+  conditionals, variables and functions along with making things go forward and turn left or right. However, there are no sprites readily available
+  in Python and the syntax is very different as well. I can't drag and drop any blocks in Python like what I did in Scratch.
+<p>My group and I also started debugging our programs and it was pretty frustrating when more errors popped up after "fixing" one part of the code.
+  Although, it was time consuming, I did like challenging myself and thinking critically. Problem solving is a great skill to practice.
+
+  <h5> July 21st, 2017 </h5>
+ <p> In class today, we learned about data structures and how we can create a list in Python. A list is basically an array of data and it is very
+    useful when you need to store a list of coordinates or a list of pixels in a picture for example. It stores a large set of data in one place so
+    it's easy to access the information in one go. After learning about them, we stored all the rgb pixels of one picture in a list, classified each set of pixels
+    in one intensity category from low to high and changed the color of each intensity level to create our own filters, just like Obama's Hope campaign poster.
+
+<h5> July 25th, 2017 </h5>
+<p> Today we built a BOE robot and I liked this activity a lot! We learned about circuits and how we can light up a LED using jumper wires, resistors
+  and a battery. Although, my group and I spent an hour figuring out how to light up the LED using a series and parallel circuit, I enjoyed trying out
+  different wire positions to get the  circuit to work.
+
+<div class="robotPicsContainer">
+<img class="robotPic1" src="http://i.imgur.com/yNyoIN6.jpg" alt="robot on girlswhocode mat">
+<img class="robotPic2" src="http://i.imgur.com/UHdxkp8.jpg" alt="closeup of led circuit on the breadboard of the robot">
+</div>
+
+<h5> July 27th, 2017 </h5>
+  <p> One thing I learned about circuits is that power comes from GND so in order to power
+    the circuit, you need to connect a jumper wire from Ground to the breadboard. I also learned that current flows away from the negative side of the
+    battery to the positive side so the positive lead of a LED should be further away from GND. After testing our circuits, we made our robot
+     dance by using servos and adding in go forward, go backwards, turn left and turn right functions. We made out robot turn 360 degrees and sway from left to
+     right. It was fun watching other group's robots dance as well.
+
+   </div>
+
+   <div id="projects">
      <h3 class="heading">PROJECTS</h3>
 
 
