@@ -16,8 +16,22 @@ body, html {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/06/30/00/47/amusement-2456905_960_720.jpg');
+    /*background-image: url('https://cdn.pixabay.com/photo/2017/06/30/00/47/amusement-2456905_960_720.jpg');*/
+    background-image: url('https://cdn.pixabay.com/photo/2011/08/03/02/13/balloon-8480_960_720.jpg');
+    background-color: black;
     min-height: 100%;
+
+}
+
+.logo{
+background-color: black;
+padding: 15% 22%;
+position: relative;
+font-size: 1.3em;
+max-width: 30%;
+min-height: 160%;
+overflow: hidden;
+
 }
 
 .w3-wide {
@@ -34,7 +48,7 @@ text-align: center;
 
 .motto{
   text-align: center;
-  color:skyblue;
+  color:orange;
   font-size: 1.4em;
 }
 
@@ -78,26 +92,27 @@ p{
 
 
  .topnav {
-    background-color: #9AC0CD	;
     width: 100%;
-    position: fixed;
+    position: fixed top;
     overflow: hidden;
+    background-color: black;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 
+
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ffc266;
     color: black;
 }
