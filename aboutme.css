@@ -4,10 +4,38 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 body, html {
     height: 100%;
-    color: #777;
+    color: black;
     line-height: 1.8;
 }
-/* Create a Parallax Effect */
+
+.topnav {
+   width: 100%;
+   position: fixed;
+   overflow: hidden;
+   background-color: black;
+   z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   z-index: 1;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   background-color: #ffc266;
+   color: black;
+}
+
+/* Creates a Parallax Effect */
 .bgimg-1 {
     background-attachment: fixed;
     background-position: center;
@@ -34,14 +62,9 @@ max-width: 30%;
 min-height: 160%;
 overflow: hidden;
 z-index:0;
+color: white;
 }
 
-.w3-wide {
-  letter-spacing: 0px;
-}
-.w3-hover-opacity {
-  cursor: pointer;
-}
 
 .heading{
 text-align: center;
@@ -68,7 +91,7 @@ p{
   max-height: 70%;
   position: relative;
   display: inline-block;
-  z-index: -1;
+  z-index: 0;
 }
 
 .robotPic2{
@@ -76,7 +99,7 @@ p{
   position: relative;
   margin-left:20%;
   display: inline-block;
-  z-index: -1;
+  z-index: 0;
  }
 
  #reflections{
@@ -93,31 +116,3 @@ p{
    width: 100%;
    padding: 5% 15%;
  }
-
-
- .topnav {
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
-    background-color: black;
-    z-index: 1;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    z-index: 1;
-
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ffc266;
-    color: black;
-}
