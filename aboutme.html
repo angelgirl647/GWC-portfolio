@@ -1,9 +1,11 @@
 <html lang="en">
 
 <head>
-<title>My Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>My Portfolio</title>
+
 <!-- for w3 schools' css, change it!!! -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!--  for google fonts -->
@@ -18,32 +20,32 @@
 <body>
 
 <!-- Navbar-->
-<div class="topnav" >
-    <a href="#home">HOME</a>
+<div class="topnav">
+
+    <a href="#home">HOME</a></li>
     <a href="#about"><i class="fa fa-user"></i> ALL ABOUT ME</a>
     <a href="#reflections"><i class="fa fa-asterisk"></i> REFLECTIONS</a>
     <a href="#projects"><i class="fa fa-th"></i> PROJECTS</a>
     <a href="#contact"><i class="fa fa-female"></i> CONTACT</a>
+
+
 </div>
 <!--for small screens-->
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+<!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ALL ABOUT ME</a>
     <a href="#reflections" class="w3-bar-item w3-button" onclick="toggleFunction()">REFLECTIONS</a>
     <a href="projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
 
+  </div> -->
+
+<!-- First Parallax Image with logo text -->
+<div class="bgimg-1">
+  <div class="logo">
+     Welcome to my portofolio! I'm Yuki. 
   </div>
 </div>
 
-
-
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="heading w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity"> Welcome to my portofolio! I'm Yuki.
-  </div>
-</div>
 
 
 <!-- Container (About Section) -->
@@ -70,15 +72,15 @@
 
 <div id="reflections">
 <h2 class="heading"> Reflections </h2>
-  <h5> July 19th, 2017 </h5>
+<h5> July 19th, 2017 </h5>
 <p> After dabbling with both Python and Scratch, I realized there are many similarities between the two programming languages. I can build loops,
   conditionals, variables and functions along with making things go forward and turn left or right. However, there are no sprites readily available
   in Python and the syntax is very different as well. I can't drag and drop any blocks in Python like what I did in Scratch.
 <p>My group and I also started debugging our programs and it was pretty frustrating when more errors popped up after "fixing" one part of the code.
   Although, it was time consuming, I did like challenging myself and thinking critically. Problem solving is a great skill to practice.
 
-  <h5> July 21st, 2017 </h5>
- <p> In class today, we learned about data structures and how we can create a list in Python. A list is basically an array of data and it is very
+<h5> July 21st, 2017 </h5>
+<p> In class today, we learned about data structures and how we can create a list in Python. A list is basically an array of data and it is very
     useful when you need to store a list of coordinates or a list of pixels in a picture for example. It stores a large set of data in one place so
     it's easy to access the information in one go. After learning about them, we stored all the rgb pixels of one picture in a list, classified each set of pixels
     in one intensity category from low to high and changed the color of each intensity level to create our own filters, just like Obama's Hope campaign poster.
@@ -88,14 +90,18 @@
   and a battery. Although, my group and I spent an hour figuring out how to light up the LED using a series and parallel circuit, I enjoyed trying out
   different wire positions to get the  circuit to work.
 
+
 <br>
-<button onclick="document.getElementById('robotPicsContainer').src='http://i.imgur.com/yNyoIN6.jpg'"> Click me to see pics </button>
 
 <div id="robotPicsContainer">
   <!-- <img class="robotPic2" src="http://i.imgur.com/UHdxkp8.jpg" alt="closeup of led circuit on the breadboard of the robot"> -->
   <!-- <img class="robotPic1" src="http://i.imgur.com/yNyoIN6.jpg" alt="robot on girlswhocode mat"> -->
 
 </div>
+
+<button onclick="document.getElementById('robotPicsContainer').src='http://i.imgur.com/yNyoIN6.jpg'"> Click me to see pics </button>
+
+
 
 
 <!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
