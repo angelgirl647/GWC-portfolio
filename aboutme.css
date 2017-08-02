@@ -1,11 +1,12 @@
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
+    font-family: "Quicksand", sans-serif;
 
 }
 body, html {
     height: 100%;
     color: black;
     line-height: 1.8;
+    /*background-color:orange;*/
 }
 
 .topnav {
@@ -55,9 +56,9 @@ body, html {
 
 .logo{
 background-color: black;
-padding: 15% 22%;
+padding: 15% 25% 15% 15%;
 position: relative;
-font-size: 1.3em;
+font-size: 1.4em;
 max-width: 30%;
 min-height: 160%;
 overflow: hidden;
@@ -68,13 +69,15 @@ color: white;
 
 .heading{
 text-align: center;
+font-family: 'Lato', sans-serif;
+
 }
 
 
-.motto{
+#motto{
   text-align: center;
-  color:orange;
-  font-size: 1.4em;
+  color:white;
+  font-size: 1.6em;
 }
 
 p{
@@ -115,4 +118,46 @@ p{
  #projects{
    width: 100%;
    padding: 5% 15%;
+   height:100%;
  }
+
+ .bgButton{
+   margin-bottom: 2%;
+ }
+
+ .robot{
+   width:50%;
+   position: relative;
+   display: block;
+   height:50%;
+   float:left;
+
+ }
+ .robot2{
+   width:50%;
+   position: relative;
+   display: block;
+   height:50%;
+
+ }
+
+ .robot3{
+   width:50%;
+   position: relative;
+   display: inline-block;
+   height:50%;
+   float: left;
+
+ }
+
+ .robot4{
+   width:50%;
+   position: relative;
+   display: inline-block;
+   height:50%;
+
+ }
+
+.robot a:hover{
+  background-color: black;
+}
